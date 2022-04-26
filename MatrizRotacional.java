@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class MatrizRotacional {
     public static void main(String[] args) {
         Scanner leitor = new Scanner(System.in);
-        System.out.printf("Informe o numero de linhas: ");
+        System.out.printf("Informe o tamanho da Matriz: ");
         int lincol = leitor.nextInt();
         int acum = 1;
         int[][] matriz = new int[lincol][lincol];
